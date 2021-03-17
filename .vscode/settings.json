@@ -1,3 +1,6 @@
 {
-    "python.pythonPath": "/home/superloser/.local/share/virtualenvs/port-ouRK7-_u/bin/python"
+    "python.pythonPath": "/home/superloser/.local/share/virtualenvs/port-ouRK7-_u/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.prospectorEnabled": false
 }

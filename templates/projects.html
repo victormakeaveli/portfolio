@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+<h1>{{project.name}}</h1>
+<hr/>
+{{project.summary|safe}}
+
+<img src="{{project.image}}" alt="image" width="250" height="250">
+
+{{project.relation|safe}}
+<hr/>
+
+<a href="{% url 'home' %}">Home</a>
+{% endblock content %}
