@@ -13,7 +13,6 @@ class BaseModel(models.Model):
 class Project(BaseModel):
     name = models.CharField(max_length=64)
     summary = models.TextField()
-    image = models.ImageField(upload_to='images/')
     relation = models.URLField() #to github
 
     def __str__(self):
