@@ -9,7 +9,7 @@ def homeview(request):
         "project": models.Project.objects.all(),
     }
     
-    return render(request, "home.html", data)
+    return render(request, "index.html", data)
 
 
 def view_project(request, project_id):

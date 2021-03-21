@@ -3,12 +3,14 @@
 {% load static %}
 
 {% block content %}
+
 <h1>{{project.name}}</h1>
 <hr/>
-{{project.summary|safe}}
-
-{{project.relation|safe}}
+{{project.summary}}
+<br>
+{{project.relation}}
 <hr/>
 
 <a href="{% url 'home' %}">Home</a>
+
 {% endblock content %}

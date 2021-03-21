@@ -19,3 +19,4 @@ class Project(BaseModel):
         return str(self.name)
 
     __repr__ = __str__
+
