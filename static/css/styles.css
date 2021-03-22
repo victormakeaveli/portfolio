@@ -4993,6 +4993,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .media-body {
+  overflow: hidden;
   flex: 1;
 }
 
